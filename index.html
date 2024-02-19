@@ -203,13 +203,13 @@
 
     <!-- Container 1 Start -->
     <section id="seat"   class="pr-20 pl-20 pt-20 pb-20">
-      <div class="card border w-full  h-auto bg-white  pl-8 grid grid-cols-2">
+      <div class="card border w-full  h-auto bg-white  pl-8 grid grid-cols-2 gap-36">
           <div>
               <p class="text-4xl p-20 font-semibold">Select Your Seat</p>
             
               <hr style="border: 1.5px dashed gray;" />
               <!-- available & Selected Start -->
-              <div class="flex  justify-center ">
+              <div class="flex justify-between ">
                   <div class="pl-10 pt-5 flex gap-2">
                       <div >
                         <img src="images/seat-gray.png" alt="">
@@ -230,14 +230,14 @@
                  <img src="images/" alt="">
               </div>
                <!-- available & Selected End -->
-               <div class="pt-6 pl-5 border-gray-300 flex justify-end items-center
+               <div class="pt-6 pr-5 border-gray-300 flex justify-end items-center
                ">
-                 <div class="border h-12 w-20 flex justify-center rounded-lg bg-gray-400">
+                 <div class="border h-12 w-16 flex justify-center rounded-lg bg-gray-400">
                  <img src="images/wheel.png" alt="">
                 </div>
                </div>
                 <!-- Seat start -->
-             <div class="flex pt-6 pl-6">
+             <div class="flex pt-6 ">
                 <!-- Seats 1 -->
                   <div class="pt-8 pl-16  flex flex-col gap-10 text-3xl space-y-1">
                     <p>A</p>
@@ -257,8 +257,8 @@
 
                   <!-- Seats 2 -->
                   <div class="p-8 flex flex-col gap-5  ">
-                    <button class="button w-20 p-3 rounded-lg bg-gray-300">A1</button>
-                    <button class="button w-20  p-3 rounded-lg bg-gray-300">B1</button>
+                    <button class="button w-16 p-3 rounded-lg bg-gray-300">A1</button>
+                    <button class="button w-16  p-3 rounded-lg bg-gray-300">B1</button>
                     <!-- <button class="btn bg-gray-300">C1</button>
                     <button class="btn bg-gray-300 ">D1</button>
                     <button class="btn  bg-gray-300 ">E1</button>
@@ -275,8 +275,8 @@
 
                   <!-- Seats 3 -->
                   <div class="p-8 flex flex-col gap-5 ">
-                    <button class="w-20 button p-3 rounded-lg bg-gray-300" >A2</button>
-                    <button class="w-20 button p-3 rounded-lg bg-gray-300" >B2</button>
+                    <button class="w-16 button p-3 rounded-lg bg-gray-300" >A2</button>
+                    <button class="w-16 button p-3 rounded-lg bg-gray-300" >B2</button>
                     <!-- <button class="btn bg-gray-300" >C2</button>
                     <button class="btn bg-gray-300" >D2</button>
                     <button class="btn bg-gray-300" >E2</button>
@@ -292,8 +292,8 @@
 
                   <!-- Seats 4 -->
                   <div class="p-8 flex flex-col gap-5 ">
-                    <button class="w-20 button p-3 rounded-lg  bg-gray-300">A3</button>
-                    <button class="w-20 button p-3 rounded-lg bg-gray-300">B3</button>
+                    <button class="w-16 button p-3 rounded-lg  bg-gray-300">A3</button>
+                    <button class="w-16 button p-3 rounded-lg bg-gray-300">B3</button>
                     <!-- <button class="btn bg-gray-300">C3</button>
                     <button class="btn bg-gray-300">D3</button>
                     <button class="btn bg-gray-300">E3</button>
@@ -306,8 +306,8 @@
                   </div>
 
                   <div class="p-8 flex flex-col gap-5">
-                    <button class="w-20 button p-3 rounded-lg  bg-gray-300">A4</button>
-                    <button class="w-20 button p-3 rounded-lg bg-gray-300">B4</button>
+                    <button class="w-16 button p-3 rounded-lg  bg-gray-300">A4</button>
+                    <button class="w-16 button p-3 rounded-lg bg-gray-300">B4</button>
                     <!-- <button class="btn bg-gray-300">C4</button>
                     <button class="btn bg-gray-300">D4</button>
                     <button class="btn bg-gray-300">E4</button>
@@ -379,9 +379,9 @@
              <!-- Total Price Start-->
 
              <!-- Coupons Start -->
-             <div class="flex p-10">
-             <input type="text" placeholder="Have any copupon?" id="coupon-input" class="input input-bordered w-full " />
-             <button  id="coupon"  class="btn bg-green-500 text-white" disabled>Apply</button> 
+             <div class="relative p-10">
+             <input type="text" placeholder="Have any copupon?" id="coupon-input" class="input input-bordered w-full h-16 " />
+             <button  id="coupon"  class="btn bg-green-500 text-white absolute right-12 top-12 " disabled>Apply</button> 
             </div>
             <div class="flex gap-36 p-2">
               <div>
