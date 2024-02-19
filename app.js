@@ -29,10 +29,16 @@
 
       if (count == 4) {
       document.getElementById("coupon").removeAttribute("disabled");
+      
     }
       if (count > 4){
         alert("You have to allow for booking 4 seats");
         element.classList.remove('bg-green-400')
+        seatsleft=4;
+        seatAdd=4;
+        seatAdded.innerText=seatAdd;
+        seatstatus.innerText=seatsleft;
+        console.log(seatsleft);
         return;
       }
 
