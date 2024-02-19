@@ -71,7 +71,7 @@
       tr.appendChild(td2);
       tr.appendChild(td3);
       TableBody.appendChild(tr);
-      totalPrice("total", price);
+      tPrice("total", price);
       
       // console.log(price);
 
@@ -87,18 +87,18 @@
     
   }
 
-  function totalPrice(eID,value){
+  function tPrice(eID,value){
     const totals=parseInt(document.getElementById(eID).innerText);
     // console.log(totals);
     
     // console.log(InnerTotal);
      let sum =totals+value;
      SetText("total",sum);
-     grandtotal();
+     gtotal();
 
   }
 
-  function grandtotal(){
+  function gtotal(){
     const mainTotal= getValue("total");
     
      
